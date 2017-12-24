@@ -19,7 +19,7 @@ const convert = (inputFile) =>{
         console.log('Finished the conversion!')
     })
     .on('error', (err) =>{
-        console.log(`Error: ${error.message}`)
+        console.log(`Error: ${err.message}`)
     })
 }
 
